@@ -1,0 +1,17 @@
+{
+  "name": "winston-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node remoteWinstonServer.js & node logFileServer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "winston": "^1.1.1",
+    "winston-remote": "0.0.5"
+  }
+}
